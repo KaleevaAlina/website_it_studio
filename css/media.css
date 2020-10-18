@@ -1,0 +1,149 @@
+@media  (max-width: 768px) {
+  .header {
+    height: 700px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    height: 16px;
+    overflow: hidden;
+  }
+
+  .nav-menu a, .fake-link {
+    height: unset;
+    margin-bottom: 20px;
+  }
+
+  .fake-link {
+    display: flex;
+  }
+
+  .fake-link:hover ~ .nav-menu {
+    height: unset; 
+    transition: all 0.25s ease-in-out;
+  }
+
+  .text {
+    padding: 0 10px;
+  }
+
+  .text h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .header-nav-wrapper {
+    margin-bottom: 100px;
+  }
+/* 2 секция */
+
+.two {
+  min-height: 488px;
+  padding: 20px 0 20px 0;
+}
+.two_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;	  
+  width: 100%;
+  font-size: 26px;
+  line-height: 43px;
+  color: #323232;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.two_descr {
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.two_pic {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 3 секция */
+.three{
+  min-height: 797px;
+  padding-top: 20px;
+  
+}
+.three_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+} 
+.three_header {
+ width: 100%;
+ font-size: 26px;
+}
+.three_descr {
+  width: 100%;
+  font-size: 14px;
+}
+.three_img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+  border-bottom:  1px solid #E0E0E0;
+}
+
+.tree_i {
+    padding-top: 140px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.three_icon_little {
+  display: flex;
+  justify-content: space-evenly;
+}
+.three__img {
+  padding-right: 0px;
+}
+.three_number {
+  font-size: 16px;
+}
+.three_footer {
+  font-size: 10px;
+}
+
+.fourn {
+  display: none;
+}
+.five {
+  display: none;
+}
+.six {
+  display: none;
+}
+.seven {
+  display: none;
+}
+.footer .container{
+  display: none;
+}
+.footer_c {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #FFFFFF;
+}
+}
