@@ -2,7 +2,15 @@
 .header {
   height: 500px;
   padding: 20px;
-  }
+}
+#header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #999999;
+  text-decoration: none;  
+}
 .nav-menu { 
   padding-top: 10px;
   display: flex;
@@ -309,7 +317,8 @@ input{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin-left: 20px;
 }
 .button_seven{
   display: flex;
