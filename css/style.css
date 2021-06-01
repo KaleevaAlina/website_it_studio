@@ -22,7 +22,6 @@ footer {
   height: 900px;
   background-repeat: no-repeat;
 }
-
 .nav-menu {
   display: flex;
   justify-content: flex-end;
@@ -521,4 +520,12 @@ input{
   font-size: 15px;
   text-align: center;
   color: #999999;
+}
+.footer_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #999999;
+  text-decoration: none;  
 }
